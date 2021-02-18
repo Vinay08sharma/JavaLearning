@@ -115,7 +115,7 @@ public class Rough {
 		}
 		
 		public static void main(String[] args) {
-			Scanner sc = new Scanner(System.in);
+		/*	Scanner sc = new Scanner(System.in);
 			int num = sc.nextInt();
 			
 			if(isEven(num)==0)
@@ -125,9 +125,21 @@ public class Rough {
 			
 			else
 				System.out.println("odd");
+		}*/
+
+
+			String str = "hello";
+			String str1 = "hello";
+
+			System.out.println(str==str1);
+
+			if(str.equals(str1)){
+				System.out.println("false");
+			}
+			else
+				System.out.println("No");
+
+
 		}
-
-
-
 	
 }

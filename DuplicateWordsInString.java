@@ -43,10 +43,17 @@ public class DuplicateWordsInString {
 		str.forEach(s ->{
 			if(wordCount.get(s)>1)
 			{
-				System.out.println(s.toLowerCase() + " : "+wordCount.get(s));
+				System.out.println(s + " : "+wordCount.get(s));
 			}
 			
 		});
+
+		System.out.println("======================================");
+		//Need to print all the words with counts
+
+		for(String s1 : str){
+			System.out.println(s1 +" : "+wordCount.get(s1) );
+		}
 		
 		
 	}
