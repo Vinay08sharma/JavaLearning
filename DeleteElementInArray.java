@@ -34,6 +34,7 @@ public class DeleteElementInArray {
 				System.out.print(a[i]+" ");
 			}
 		}
+
 	}
 
 }

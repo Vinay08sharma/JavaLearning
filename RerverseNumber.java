@@ -4,7 +4,7 @@ public class RerverseNumber {
 	public static void main(String[] args) {
 
 
-		int num = 232;
+		int num = 1534236469;
 		
 		int rev = 0;
 		
@@ -23,12 +23,13 @@ public class RerverseNumber {
 		{
 			System.out.println("The number is a Palindrome");
 		}
+
 		
 		else
 		{
 			System.out.println("The number is not a palindrome");
 		}
-		
+
 		
 		
 		/*=========== Another Method ========= */

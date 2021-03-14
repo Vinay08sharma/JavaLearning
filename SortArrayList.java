@@ -27,6 +27,7 @@ public class SortArrayList {
 
         int[] i = {2,5,1,10,20,20,15};
 
+
         int temp = 0;
         for(int j = 0; j<i.length;j++)
         {
